@@ -1,24 +1,15 @@
-# spencerhaugh
+# Spencer Haugh - A Portfolio Site
 
 ## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Welcome to my portfolio site! 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+I built this site using Vue.js, and as I have only learned Vue in the last few days Ithink it came out pretty great! 
 
-### Lints and fixes files
-```
-npm run lint
-```
+You'll see from my portfolio that I am able to build sites with several other methods, like React for example. I chose to use Vue due to it's lightweight nature, and to better familiarize myself with the platform.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This is a living site, so expect to see updates here as I learn and implement new skills, as well as complete more great projects to add to it!
+
+Thank you,
+Spencer
+

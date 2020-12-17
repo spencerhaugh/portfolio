@@ -7,7 +7,7 @@
             <img src="../assets/Projects/DontForget-1.png" alt="Image of Memory Game Project">
             <div class="buttons">
               <a href="https://spencerhaugh.github.io/memory-app/index.html" target="_blank"><button class='live-site'>LIVE SITE</button></a>
-              <a href=""><button class='github-code'>GITHUB CODE</button></a>
+              <a href="https://github.com/spencerhaugh/memory-app" target="_blank"><button class='github-code'>GITHUB CODE</button></a>
             </div>
           </div>
           <!-- Project Two -->
@@ -15,7 +15,7 @@
             <img src="../assets/Projects/Catabase-1.png" alt="Image of Catabase Project">
             <div class="buttons">
               <a href="https://enigmatic-island-67697.herokuapp.com/catabase" target="_blank"><button class='live-site'>LIVE SITE</button></a>
-              <a href=""><button class='github-code'>GITHUB CODE</button></a>
+              <a href="https://github.com/spencerhaugh/cats-app" target="_blank"><button class='github-code'>GITHUB CODE</button></a>
             </div>
           </div>
           <!-- Project Three -->
@@ -23,7 +23,7 @@
             <img src="../assets/Projects/FarmStan-1.png" alt="Image of Farm Stan Project">
             <div class="buttons">
               <a href="https://farm-stan-client.herokuapp.com/" target="_blank"><button class='live-site'>LIVE SITE</button></a>
-              <a href=""><button class='github-code'>GITHUB CODE</button></a>
+              <a href="https://github.com/spencerhaugh/farmstan-app" target="_blank"><button class='github-code'>GITHUB CODE</button></a>
             </div>
           </div>
           <!-- Project Four -->
@@ -31,7 +31,7 @@
             <img src="../assets/Projects/Hangry-1.png" alt="Image of Hangry Project">
             <div class="buttons">
               <a href="https://mystifying-mccarthy-7142e6.netlify.app/" target="_blank"><button class='live-site'>LIVE SITE</button></a>
-              <a href=""><button class='github-code'>GITHUB CODE</button></a>
+              <a href="https://github.com/spencerhaugh/leftovers-app" target="_blank"><button class='github-code'>GITHUB CODE</button></a>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default {
     margin-top: 3%;
     margin-bottom: 3%;
     background-color: rgba(255, 225, 170, 0.4);
-    padding: 3%;
+    padding: 4%;
     border-radius: 20px;
   }
   button {
@@ -83,7 +83,7 @@ export default {
     color: whitesmoke;
   }
   .github-code {
-    background-color: slategrey;
+    background-color: rgb(95, 187, 115);
     color: whitesmoke;
   }
 </style>
