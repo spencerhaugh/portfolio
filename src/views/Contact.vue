@@ -1,6 +1,6 @@
 <template>
     <div class="contact">
-        <h1>// CONTACT ME</h1>
+        <h1>// LET'S TALK</h1>
         <h3>
             <ul>
                 <li>email: spencer.haugh@gmail.com</li>
