@@ -22,10 +22,23 @@
 
 #nav a {
   font-weight: bold;
+  font-size: 1.25em;
   color: #2c3e50;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: orange;
+  opacity: 100%;
 }
+a:hover {
+  opacity: 70%;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+      font-family: "KCOraleSans";
+      src: local("KCOraleSans"),
+      url(./fonts/KCOraleSans.otf) format("opentype")
+    }
 </style>

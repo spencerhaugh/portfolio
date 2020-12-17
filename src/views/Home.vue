@@ -1,7 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/WAPBars-01.png">
-    <HelloWorld msg="Let's Get Radical"/>
+    <h1>Spencer Haugh</h1>
+    <!-- <img alt="Vue logo" src="../assets/WAPBars-01.png"> -->
+    <HelloWorld msg="// Let's Get Radical"/>
   </div>
 </template>
 
@@ -22,4 +23,9 @@ export default {
     /* background-size: cover; */
     width: 90%;
   }
+  h1 {
+    font-family: KCOraleSans, Helvetica, Arial;
+    font-size: 10rem;
+  }
+
 </style>
