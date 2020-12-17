@@ -4,8 +4,8 @@
         <h3>
             <ul>
                 <li>email: spencer.haugh@gmail.com</li>
-                <li>linkedin: <a href="https://linkedin.com/in/spencerhaugh">linkedin.com/in/spencerhaugh</a></li>
-                <li>github: <a href="https://github.com/spencerhaugh">github.com/spencerhaugh</a></li>
+                <li>linkedin: <a href="https://linkedin.com/in/spencerhaugh" target="_blank">linkedin.com/in/spencerhaugh</a></li>
+                <li>github: <a href="https://github.com/spencerhaugh" target="_blank">github.com/spencerhaugh</a></li>
             </ul>
         </h3>
     </div>
@@ -20,5 +20,6 @@ export default {
 <style scoped>
     ul {
         list-style: none;
+        margin-top: 10%;
     }
 </style>

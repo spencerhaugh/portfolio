@@ -15,9 +15,9 @@ export default {
   img {
     border-radius: 50%;
     width: 45%;
-    margin-top: -7%;
+    margin-top: -4%;
   }
   .profile-pic-inner {
-      max-width: 400px;
+      max-width: 350px;
   }
 </style>
