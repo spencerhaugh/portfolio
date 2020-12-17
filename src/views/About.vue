@@ -14,7 +14,7 @@
     </div>
     <div class="about-container">
       <div class="profile-pic">
-        <img src="../assets/new_profile_pic.png" alt="Image of Spencer Haugh">
+        <ProfileImage />
       </div>
       <div class="about-skills">
         <Skills />
@@ -25,11 +25,13 @@
 
 <script>
 import Skills from '@/components/Skills.vue';
+import ProfileImage from '@/components/ProfileImage.vue';
 
 export default {
   name: 'About',
   components: {
     Skills,
+    ProfileImage,
   },
 };
 </script>
@@ -42,11 +44,6 @@ export default {
   }
   h1 {
     padding: 10px;
-  }
-  img {
-    border-radius: 50%;
-    width: 35%;
-    margin-left: -25%;
   }
   .about-container {
     display: flex;

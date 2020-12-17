@@ -3,17 +3,20 @@
     <h1>Spencer Haugh</h1>
     <!-- <img alt="Vue logo" src="../assets/WAPBars-01.png"> -->
     <HelloWorld msg="// Let's Get Radical"/>
+    <Resume />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue';
+import Resume from '@/components/Resume.vue';
 
 export default {
   name: 'Home',
   components: {
     HelloWorld,
+    Resume,
   },
 };
 </script>
