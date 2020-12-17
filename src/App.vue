@@ -33,10 +33,9 @@ a {
 
 #nav a.router-link-exact-active {
   color: orange;
-  opacity: 100%;
 }
 a:hover {
-  opacity: 70%;
+  color: rgb(255, 188, 64);
 }
 a {
   text-decoration: none;
