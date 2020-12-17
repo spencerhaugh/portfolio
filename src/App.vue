@@ -29,6 +29,7 @@
 
 a {
   color: orange;
+  cursor: pointer;
 }
 
 #nav a.router-link-exact-active {
