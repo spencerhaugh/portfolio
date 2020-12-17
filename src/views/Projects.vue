@@ -78,6 +78,9 @@ export default {
     flex-direction: row;
     justify-content: space-around;
   }
+  .buttons:hover {
+    cursor: pointer;
+  }
   .live-site {
     background-color: orange;
     color: whitesmoke;
