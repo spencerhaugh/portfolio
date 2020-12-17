@@ -10,6 +10,6 @@ You'll see from my portfolio that I am able to build sites with several other me
 
 This is a living site, so expect to see updates here as I learn and implement new skills, as well as complete more great projects to add to it!
 
-Thank you,
+Thank you for visiting,
 Spencer
 
