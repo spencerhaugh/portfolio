@@ -46,8 +46,14 @@ export default {
 </script>
 
 <style scoped>
+  @media (max-width: 550px) {
+    .project-tile {
+      width: 80%;
+    }
+  }
   img {
     max-width: 600px;
+    width: 80%;
     border-radius: 20px;
   }
   .projects-container {

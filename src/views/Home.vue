@@ -22,6 +22,11 @@ export default {
 </script>
 
 <style scoped>
+@media (max-width: 550) {
+  h1 {
+    font-size: 6rem;
+  }
+}
   img {
     /* background-size: cover; */
     width: 90%;
