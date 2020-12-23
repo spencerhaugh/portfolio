@@ -9,6 +9,7 @@
 </template>
 
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -46,4 +47,16 @@ a {
       src: local("KCOraleSans"),
       url(./fonts/KCOraleSans.otf) format("opentype")
     }
+    @media (max-width: 650px) {
+  #title {
+    font-size: 6rem;
+    margin: 20px auto;
+  }
+  #nav {
+    font-size: 0.75em;
+  }
+  #projects-container button {
+    width: 100px;
+  }
+}
 </style>
