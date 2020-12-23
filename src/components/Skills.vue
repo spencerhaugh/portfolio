@@ -4,7 +4,7 @@
         <div class="skills-container">
             <div class="skills-list">
                 <ul>
-                    <li>Javascript</li>
+                    <li><i class="fab fa-js"></i>Javascript</li>
                     <li>CSS</li>
                     <li>HTML</li>
                     <li>Node.js</li>

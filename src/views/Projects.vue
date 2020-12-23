@@ -9,6 +9,9 @@
               <a href="https://spencerhaugh.github.io/memory-app/index.html" target="_blank"><button  class='live-site'>LIVE SITE</button></a>
               <a href="https://github.com/spencerhaugh/memory-app" target="_blank"><button class='github-code'>GITHUB</button></a>
             </div>
+            <div class="tech">
+                Technologies Used: jQuery, HTML, CSS, Responsive design
+              </div>
           </div>
           <!-- Project Two -->
           <div class="project-two project-tile">
@@ -17,6 +20,10 @@
               <a href="https://enigmatic-island-67697.herokuapp.com/catabase" target="_blank"><button class='live-site'>LIVE SITE</button></a>
               <a href="https://github.com/spencerhaugh/cats-app" target="_blank"><button class='github-code'>GITHUB</button></a>
             </div>
+            <div class="tech">
+                Technologies Used: Node, Express, MongoDB, EJS, Sever-side Rendering,
+                Authentication, RESTful Routing, Responsive design
+              </div>
           </div>
           <!-- Project Three -->
           <div class="project-three project-tile">
@@ -25,6 +32,10 @@
               <a href="https://farm-stan-client.herokuapp.com/" target="_blank"><button class='live-site'>LIVE SITE</button></a>
               <a href="https://github.com/spencerhaugh/farmstan-app" target="_blank"><button class='github-code'>GITHUB</button></a>
             </div>
+            <div class="tech">
+                Technologies Used: React, Node, Express, MongoDB, MERN Stack,
+                Client-side Rendering, RESTful Routing, Authentication, Responsive design
+              </div>
           </div>
           <!-- Project Four -->
           <div class="project-four project-tile">
@@ -33,6 +44,10 @@
               <a href="https://mystifying-mccarthy-7142e6.netlify.app/" target="_blank"><button class='live-site'>LIVE SITE</button></a>
               <a href="https://github.com/spencerhaugh/leftovers-app" target="_blank"><button class='github-code'>GITHUB</button></a>
             </div>
+            <div class="tech">
+                Technologies Used: Vue, Node, Express, MongoDB, Client-side Rendering
+                3rd Party API, RESTful Routing, Responsive design
+              </div>
           </div>
         </div>
     </div>
@@ -47,7 +62,7 @@ export default {
 
 <style scoped>
   img {
-    max-width: 600px;
+    width: 600px;
     width: 80%;
     border-radius: 20px;
   }
@@ -62,6 +77,7 @@ export default {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    max-width: 60%;
     margin-top: 3%;
     margin-bottom: 3%;
     background-color: rgba(255, 225, 170, 0.4);
@@ -72,7 +88,7 @@ export default {
     width: 200px;
     border: none;
     padding: 10px;
-    margin-top: 5%;
+    margin-top: 8%;
   }
   .buttons {
     display: flex;
@@ -90,10 +106,20 @@ export default {
     background-color: rgb(95, 187, 115);
     color: whitesmoke;
   }
+  .tech {
+    width: 50%;
+    margin-top: 4%;
+  }
   @media (max-width: 550px) {
     .project-tile {
       width: 80%;
       padding: 2%;
+    }
+    .tech {
+      font-size: 0.75rem;
+    }
+    .buttons {
+      flex-direction: column;
     }
   }
 </style>
