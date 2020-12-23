@@ -21,5 +21,11 @@ export default {
     ul {
         list-style: none;
         margin-top: 10%;
+        padding: 0;
+    }
+    @media (max-width: 650px) {
+        .contact {
+            font-size: 0.75rem;
+        }
     }
 </style>

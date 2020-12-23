@@ -46,11 +46,6 @@ export default {
 </script>
 
 <style scoped>
-  @media (max-width: 550px) {
-    .project-tile {
-      width: 80%;
-    }
-  }
   img {
     max-width: 600px;
     width: 80%;
@@ -94,5 +89,11 @@ export default {
   .github-code {
     background-color: rgb(95, 187, 115);
     color: whitesmoke;
+  }
+  @media (max-width: 550px) {
+    .project-tile {
+      width: 80%;
+      padding: 2%;
+    }
   }
 </style>

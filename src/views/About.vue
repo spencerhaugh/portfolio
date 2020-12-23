@@ -54,6 +54,7 @@ export default {
   @media (max-width: 650px) {
     .about-container {
       flex-direction: column;
+      align-items: center;
     }
   }
 </style>
