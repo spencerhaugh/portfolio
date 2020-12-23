@@ -51,4 +51,9 @@ export default {
     justify-content: center;
     margin-top: 5%;
   }
+  @media (max-width: 650px) {
+    .about-container {
+      flex-direction: column;
+    }
+  }
 </style>
