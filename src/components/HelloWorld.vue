@@ -18,7 +18,7 @@ export default {
 <style scoped>
 
 h1 {
-  color: orange;
-  margin-bottom: 5%;
+  color: #f5af19;
+  margin-bottom: 3%;
 }
 </style>

@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <h1 id='title'>Spencer Haugh</h1>
-    <!-- <img alt="Vue logo" src="../assets/WAPBars-01.png"> -->
     <HelloWorld msg="// Let's Get Radical"/>
     <Resume />
   </div>
@@ -22,8 +21,8 @@ export default {
 </script>
 
 <style scoped>
+
   img {
-    /* background-size: cover; */
     width: 90%;
   }
   h1 {

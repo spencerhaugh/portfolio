@@ -9,7 +9,27 @@
 </template>
 
 <style>
+.resume {
+  background: #1c92d2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f12711, #f5af19);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f12711, #f5af19);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 400%;
+  animation: gradient ease-in-out 5s infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 100%;
+  }
+  50% {
+    background-position: 20%;
+  }
+  100% {
+    background-position: 100%;
+  }
 
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -29,12 +49,12 @@
 }
 
 a {
-  color: orange;
+  color: #f5af19;
   cursor: pointer;
 }
 
 #nav a.router-link-exact-active {
-  color: orange;
+  color: #f5af19;
 }
 a:hover {
   color: rgb(255, 188, 64);
