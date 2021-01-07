@@ -2,29 +2,20 @@
     <div class="project-page">
         <h1>// THE GOODS</h1>
         <div class="projects-container" id='projects-container'>
-          <!-- Project One -->
-          <div class="project-one project-tile">
-            <img src="../assets/Projects/DontForget-1.png" alt="Image of Memory Game Project">
+
+          <!-- Project Four -->
+          <div class="project-four project-tile">
+            <img src="../assets/Projects/Hangry-1.png" alt="Image of Hangry Project">
             <div class="buttons">
-              <a href="https://spencerhaugh.github.io/memory-app/index.html" target="_blank"><button  class='live-site'>LIVE SITE</button></a>
-              <a href="https://github.com/spencerhaugh/memory-app" target="_blank"><button class='github-code'>GITHUB</button></a>
+              <a href="https://mystifying-mccarthy-7142e6.netlify.app/" target="_blank"><button class='live-site'>LIVE SITE</button></a>
+              <a href="https://github.com/spencerhaugh/leftovers-app" target="_blank"><button class='github-code'>GITHUB</button></a>
             </div>
             <div class="tech">
-                Technologies Used: jQuery, HTML, CSS, Responsive design
+                Technologies Used: Vue, Node, Express, MongoDB, Client-side Rendering
+                3rd Party API, RESTful Routing, Responsive design
               </div>
           </div>
-          <!-- Project Two -->
-          <div class="project-two project-tile">
-            <img src="../assets/Projects/Catabase-1.png" alt="Image of Catabase Project">
-            <div class="buttons">
-              <a href="https://enigmatic-island-67697.herokuapp.com/catabase" target="_blank"><button class='live-site'>LIVE SITE</button></a>
-              <a href="https://github.com/spencerhaugh/cats-app" target="_blank"><button class='github-code'>GITHUB</button></a>
-            </div>
-            <div class="tech">
-                Technologies Used: Node, Express, MongoDB, EJS, Sever-side Rendering,
-                Authentication, RESTful Routing, Responsive design
-              </div>
-          </div>
+
           <!-- Project Three -->
           <div class="project-three project-tile">
             <img src="../assets/Projects/FarmStan-1.png" alt="Image of Farm Stan Project">
@@ -37,16 +28,29 @@
                 Client-side Rendering, RESTful Routing, Authentication, Responsive design
               </div>
           </div>
-          <!-- Project Four -->
-          <div class="project-four project-tile">
-            <img src="../assets/Projects/Hangry-1.png" alt="Image of Hangry Project">
+
+          <!-- Project Two -->
+          <div class="project-two project-tile">
+            <img src="../assets/Projects/Catabase-1.png" alt="Image of Catabase Project">
             <div class="buttons">
-              <a href="https://mystifying-mccarthy-7142e6.netlify.app/" target="_blank"><button class='live-site'>LIVE SITE</button></a>
-              <a href="https://github.com/spencerhaugh/leftovers-app" target="_blank"><button class='github-code'>GITHUB</button></a>
+              <a href="https://enigmatic-island-67697.herokuapp.com/catabase" target="_blank"><button class='live-site'>LIVE SITE</button></a>
+              <a href="https://github.com/spencerhaugh/cats-app" target="_blank"><button class='github-code'>GITHUB</button></a>
             </div>
             <div class="tech">
-                Technologies Used: Vue, Node, Express, MongoDB, Client-side Rendering
-                3rd Party API, RESTful Routing, Responsive design
+                Technologies Used: Node, Express, MongoDB, EJS, Sever-side Rendering,
+                Authentication, RESTful Routing, Responsive design
+              </div>
+          </div>
+
+          <!-- Project One -->
+          <div class="project-one project-tile">
+            <img src="../assets/Projects/DontForget-1.png" alt="Image of Memory Game Project">
+            <div class="buttons">
+              <a href="https://spencerhaugh.github.io/memory-app/index.html" target="_blank"><button  class='live-site'>LIVE SITE</button></a>
+              <a href="https://github.com/spencerhaugh/memory-app" target="_blank"><button class='github-code'>GITHUB</button></a>
+            </div>
+            <div class="tech">
+                Technologies Used: jQuery, HTML, CSS, Responsive design
               </div>
           </div>
         </div>
