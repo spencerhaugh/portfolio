@@ -89,7 +89,7 @@ export default {
     border-radius: 20px;
   }
   button {
-    width: 200px;
+    width: 40%;
     border: none;
     padding: 10px;
     margin-top: 8%;
