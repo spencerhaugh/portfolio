@@ -98,6 +98,7 @@ export default {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 45%;
   }
   button:hover {
     cursor: pointer;
