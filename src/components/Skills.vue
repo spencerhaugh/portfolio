@@ -10,7 +10,7 @@
                     <li><i class="fab fa-node-js"></i> Node.js</li>
                     <li><i class="fab fa-node"></i> Express</li>
                     <li>MongoDB</li>
-                    <li>React.js</li>
+                    <li>SQL</li>
                 </ul>
             </div>
             <div class="skills-list">
