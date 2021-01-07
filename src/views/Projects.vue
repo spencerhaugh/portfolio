@@ -11,7 +11,7 @@
               <a href="https://github.com/spencerhaugh/leftovers-app" target="_blank"><button class='github-code'>GITHUB</button></a>
             </div>
             <div class="tech">
-                Technologies Used: Vue, Node, Express, MongoDB, Client-side Rendering
+                Technologies Used: <i class="fab fa-vuejs"></i> Vue, <i class="fab fa-node-js"></i> Node, <i class="fab fa-node"></i> Express, MongoDB, Client-side Rendering
                 3rd Party API, RESTful Routing, Responsive design
               </div>
           </div>
@@ -24,7 +24,7 @@
               <a href="https://github.com/spencerhaugh/farmstan-app" target="_blank"><button class='github-code'>GITHUB</button></a>
             </div>
             <div class="tech">
-                Technologies Used: React, Node, Express, MongoDB, MERN Stack,
+                Technologies Used: <i class="fab fa-react"></i> React, <i class="fab fa-node-js"></i> Node, <i class="fab fa-node"></i> Express, MongoDB, MERN Stack,
                 Client-side Rendering, RESTful Routing, Authentication, Responsive design
               </div>
           </div>
@@ -37,7 +37,7 @@
               <a href="https://github.com/spencerhaugh/cats-app" target="_blank"><button class='github-code'>GITHUB</button></a>
             </div>
             <div class="tech">
-                Technologies Used: Node, Express, MongoDB, EJS, Sever-side Rendering,
+                Technologies Used: <i class="fab fa-node-js"></i> Node, <i class="fab fa-node"></i> Express, MongoDB, EJS, Sever-side Rendering,
                 Authentication, RESTful Routing, Responsive design
               </div>
           </div>
@@ -50,7 +50,7 @@
               <a href="https://github.com/spencerhaugh/memory-app" target="_blank"><button class='github-code'>GITHUB</button></a>
             </div>
             <div class="tech">
-                Technologies Used: jQuery, HTML, CSS, Responsive design
+                Technologies Used: jQuery, <i class="fab fa-html5"></i> HTML, <i class="fab fa-css3-alt"></i> CSS, Responsive design
               </div>
           </div>
         </div>

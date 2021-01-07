@@ -16,6 +16,7 @@
             <div class="skills-list">
                 <ul>
                     <li><i class="fab fa-vuejs"></i> Vue.js</li>
+                    <li><i class="fab fa-react"></i> React</li>
                     <li><i class="fab fa-python"></i> Python</li>
                     <li><i class="fab fa-github-square"></i> Git/Github</li>
                     <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
