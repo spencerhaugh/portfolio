@@ -99,7 +99,7 @@ export default {
     flex-direction: row;
     justify-content: space-around;
   }
-  .buttons:hover {
+  button:hover {
     cursor: pointer;
   }
   .live-site {
