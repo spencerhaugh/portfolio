@@ -10,10 +10,16 @@
               <a href="https://mystifying-mccarthy-7142e6.netlify.app/" target="_blank"><button class='live-site'>LIVE SITE</button></a>
               <a href="https://github.com/spencerhaugh/leftovers-app" target="_blank"><button class='github-code'>GITHUB</button></a>
             </div>
+            <div class="description">
+                <strong>Description:</strong> This projects goal was to learn and implement
+                new technologies to my skillset, in a 1 week timeframe.
+                I chose to implement Vue.js for the first time,
+                along with a 3rd Party API.
+              </div>
             <div class="tech">
-                Technologies Used: <i class="fab fa-vuejs"></i> Vue, 
-                <i class="fab fa-node-js"></i> Node, <i class="fab fa-node"></i> Express, MongoDB, 
-                Client-side Rendering
+                <strong>Technologies Used:</strong> Vue,
+                Node, Express, MongoDB,
+                Client-side Rendering,
                 3rd Party API, RESTful Routing, Responsive design
               </div>
           </div>
@@ -25,10 +31,17 @@
               <a href="https://farm-stan-client.herokuapp.com/" target="_blank"><button class='live-site'>LIVE SITE</button></a>
               <a href="https://github.com/spencerhaugh/farmstan-app" target="_blank"><button class='github-code'>GITHUB</button></a>
             </div>
+            <div class="description">
+                <strong>Description:</strong> This was a group project built in 1 week using
+                React with an Express/Node backend, including Authentication
+                and using JWT tokens. I worked mainly on the
+                front end design.
+              </div>
             <div class="tech">
-                Technologies Used: <i class="fab fa-react"></i> React, 
-                <i class="fab fa-node-js"></i> Node, <i class="fab fa-node"></i> Express, MongoDB, MERN Stack,
-                Client-side Rendering, RESTful Routing, Authentication, Responsive design
+                <strong>Technologies Used:</strong> React,
+                Node, Express,
+                MongoDB, MERN Stack, Client-side Rendering,
+                RESTful Routing, Authentication, Responsive design
               </div>
           </div>
 
@@ -39,9 +52,14 @@
               <a href="https://enigmatic-island-67697.herokuapp.com/catabase" target="_blank"><button class='live-site'>LIVE SITE</button></a>
               <a href="https://github.com/spencerhaugh/cats-app" target="_blank"><button class='github-code'>GITHUB</button></a>
             </div>
+            <div class="description">
+                <strong>Description:</strong> This project uses server-side rendering
+                and MongoDB to securely log in users and allow them to
+                upload data. This is a full CRUD app, with Authentication.
+              </div>
             <div class="tech">
-                Technologies Used: <i class="fab fa-node-js"></i> Node, <i class="fab fa-node"></i> Express, 
-                MongoDB, EJS, Sever-side Rendering,
+                <strong>Technologies Used:</strong> Node,
+                Express, MongoDB, EJS, Sever-side Rendering,
                 Authentication, RESTful Routing, Responsive design
               </div>
           </div>
@@ -53,8 +71,13 @@
               <a href="https://spencerhaugh.github.io/memory-app/index.html" target="_blank"><button  class='live-site'>LIVE SITE</button></a>
               <a href="https://github.com/spencerhaugh/memory-app" target="_blank"><button class='github-code'>GITHUB</button></a>
             </div>
+            <div class="description">
+                <strong>Description:</strong> This project was an exercise in game logic
+                and DOM manipulation. The goal was to code a game in 1 week,
+                with win/loss logic using only HTML, CSS, and jQuery.
+              </div>
             <div class="tech">
-                Technologies Used: jQuery, <i class="fab fa-html5"></i> HTML, <i class="fab fa-css3-alt"></i> 
+                <strong>Technologies Used:</strong> jQuery, HTML,
                 CSS, Responsive design
               </div>
           </div>
@@ -94,7 +117,6 @@ export default {
     border-radius: 20px;
   }
   button {
-    width: 40%;
     border: none;
     padding: 10px;
     margin-top: 8%;
@@ -115,6 +137,10 @@ export default {
   .github-code {
     background-color: rgb(95, 187, 115);
     color: whitesmoke;
+  }
+  .description {
+    width: 50%;
+    margin-top: 4%;
   }
   .tech {
     width: 50%;
