@@ -5,7 +5,7 @@
 
           <!-- Project Four -->
           <div class="project-four project-tile">
-            <img src="../assets/Projects/Hangry-1.png" alt="Image of Hangry Project">
+            <img src="../assets/Projects/hangry-app.png" alt="Image of Hangry Project">
             <div class="buttons">
               <a href="https://mystifying-mccarthy-7142e6.netlify.app/" target="_blank"><button class='live-site'>LIVE SITE</button></a>
               <a href="https://github.com/spencerhaugh/leftovers-app" target="_blank"><button class='github-code'>GITHUB</button></a>
@@ -26,7 +26,7 @@
 
           <!-- Project Three -->
           <div class="project-three project-tile">
-            <img src="../assets/Projects/FarmStan-1.png" alt="Image of Farm Stan Project">
+            <img src="../assets/Projects/farm-stan-app.png" alt="Image of Farm Stan Project">
             <div class="buttons">
               <a href="https://farm-stan-client.herokuapp.com/" target="_blank"><button class='live-site'>LIVE SITE</button></a>
               <a href="https://github.com/spencerhaugh/farmstan-app" target="_blank"><button class='github-code'>GITHUB</button></a>
@@ -47,7 +47,7 @@
 
           <!-- Project Two -->
           <div class="project-two project-tile">
-            <img src="../assets/Projects/Catabase-1.png" alt="Image of Catabase Project">
+            <img src="../assets/Projects/catabase-app.png" alt="Image of Catabase Project">
             <div class="buttons">
               <a href="https://enigmatic-island-67697.herokuapp.com/catabase" target="_blank"><button class='live-site'>LIVE SITE</button></a>
               <a href="https://github.com/spencerhaugh/cats-app" target="_blank"><button class='github-code'>GITHUB</button></a>
@@ -66,7 +66,7 @@
 
           <!-- Project One -->
           <div class="project-one project-tile">
-            <img src="../assets/Projects/DontForget-1.png" alt="Image of Memory Game Project">
+            <img src="../assets/Projects/dontforget-app.png" alt="Image of Memory Game Project">
             <div class="buttons">
               <a href="https://spencerhaugh.github.io/memory-app/index.html" target="_blank"><button  class='live-site'>LIVE SITE</button></a>
               <a href="https://github.com/spencerhaugh/memory-app" target="_blank"><button class='github-code'>GITHUB</button></a>
@@ -97,6 +97,9 @@ export default {
     width: 600px;
     width: 80%;
     border-radius: 20px;
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(70, 70, 70, 0.69);
+    -moz-box-shadow:    2px 2px 8px 0px rgba(70, 70, 70, 0.69);
+    box-shadow:         2px 2px 8px 0px rgba(70, 70, 70, 0.69);
   }
   .projects-container {
     display: flex;
@@ -109,17 +112,20 @@ export default {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    max-width: 60%;
+    max-width: 55%;
     margin-top: 3%;
     margin-bottom: 3%;
     background-color: rgba(255, 225, 170, 0.4);
-    padding: 4%;
+    padding: 2%;
     border-radius: 20px;
+    -webkit-box-shadow: 2px 2px 12px 0px rgba(70, 70, 70, 0.69);
+    -moz-box-shadow:    2px 2px 12px 0px rgba(70, 70, 70, 0.69);
+    box-shadow:         2px 2px 12px 0px rgba(70, 70, 70, 0.69);
   }
   button {
     border: none;
-    padding: 10px;
-    margin-top: 8%;
+    padding: 15px;
+    margin-top: 15%;
   }
   .buttons {
     display: flex;
