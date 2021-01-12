@@ -11,6 +11,18 @@
         I specialize in bringing a calm to the storm of business with my years of
         experience in process improvement, problem-solving, and client-first solutions.
       </p>
+      <p>
+        But that's business. I'm a lot more than that! My favorite hobby outside of the office is cycling. I've raced bicycles for years, and I enjoy it so much that I have a fairly populate podcast about it (The Slow Ride Podcast).
+      </p>
+      <p>
+        I also have a 1988 VW Vanagon that I am trying to restore, I don't know a lot about cars but I'm trying to learn.
+      </p>
+      <p>
+        Lastly, I'm still trying to get better at play guitar, but I'm only about as good as I was at 15. Still, I really enjoy it!
+      </p>
+      <p>
+        Feel free to ask me about any of these interests, I love to talk about them!
+      </p>
     </div>
     <div class="about-container">
       <div class="profile-pic">
