@@ -17,11 +17,11 @@
         I have a fairly populate podcast about it (The Slow Ride Podcast).
       </p>
       <p>
-        I also have a 1988 VW Vanagon that I am trying to restore, I don't know a 
+        I also have a 1988 VW Vanagon that I am trying to restore, I don't know a
         lot about cars but I'm trying to learn.
       </p>
       <p>
-        Lastly, I'm still trying to get better at play guitar, but I'm only about as 
+        Lastly, I'm still trying to get better at play guitar, but I'm only about as
         good as I was at 15. Still, I really enjoy it!
       </p>
       <p>
