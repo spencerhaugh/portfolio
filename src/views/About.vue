@@ -14,7 +14,7 @@
       <p>
         But that's business. I'm a lot more than that! My favorite hobby outside of the
         office is cycling. I've raced bicycles for years, and I enjoy it so much that
-        I have a fairly populate podcast about it (The Slow Ride Podcast).
+        I have a fairly popular podcast about it (The Slow Ride Podcast).
       </p>
       <p>
         I also have a 1988 VW Vanagon that I am trying to restore, I don't know a
@@ -24,6 +24,7 @@
         Lastly, I'm still trying to get better at play guitar, but I'm only about as
         good as I was at 15. Still, I really enjoy it!
       </p>
+      <br />
       <p>
         Feel free to ask me about any of these interests, I love to talk about them!
       </p>
