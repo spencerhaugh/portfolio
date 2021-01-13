@@ -5,6 +5,8 @@
 
           <!-- Project Four -->
           <div class="project-four project-tile">
+            <h2>Hangry!</h2>
+            <h3>A randomized meal idea generator</h3>
             <img src="../assets/Projects/hangry-app.png" alt="Image of Hangry Project">
             <div class="buttons">
               <a href="https://mystifying-mccarthy-7142e6.netlify.app/" target="_blank"><button class='live-site'>LIVE SITE</button></a>
@@ -26,6 +28,9 @@
 
           <!-- Project Three -->
           <div class="project-three project-tile">
+            <h2>Farm Stan</h2>
+            <h3>App connecting customers to current Farmers Market product
+              inventory/availablity</h3>
             <img src="../assets/Projects/farm-stan-app.png" alt="Image of Farm Stan Project">
             <div class="buttons">
               <a href="https://farm-stan-client.herokuapp.com/" target="_blank"><button class='live-site'>LIVE SITE</button></a>
@@ -47,6 +52,8 @@
 
           <!-- Project Two -->
           <div class="project-two project-tile">
+            <h2>Catabase</h2>
+            <h3>A social media platform for cat-lovers</h3>
             <img src="../assets/Projects/catabase-app.png" alt="Image of Catabase Project">
             <div class="buttons">
               <a href="https://enigmatic-island-67697.herokuapp.com/catabase" target="_blank"><button class='live-site'>LIVE SITE</button></a>
@@ -66,6 +73,8 @@
 
           <!-- Project One -->
           <div class="project-one project-tile">
+            <h2>Don't Forget!</h2>
+            <h3>A challenging color-based memory game</h3>
             <img src="../assets/Projects/dontforget-app.png" alt="Image of Memory Game Project">
             <div class="buttons">
               <a href="https://spencerhaugh.github.io/memory-app/index.html" target="_blank"><button  class='live-site'>LIVE SITE</button></a>
@@ -100,6 +109,11 @@ export default {
     -webkit-box-shadow: 2px 2px 8px 0px rgba(70, 70, 70, 0.69);
     -moz-box-shadow:    2px 2px 8px 0px rgba(70, 70, 70, 0.69);
     box-shadow:         2px 2px 8px 0px rgba(70, 70, 70, 0.69);
+  }
+  h2 {
+    font-family: KCOraleSans, Helvetica, Arial;
+    font-size: 5rem;
+    margin: 0 auto;
   }
   .projects-container {
     display: flex;
