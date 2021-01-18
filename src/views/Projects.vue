@@ -103,7 +103,7 @@ export default {
 
 <style scoped>
   img {
-    width: 600px;
+    max-width: 600px;
     width: 80%;
     border-radius: 20px;
     -webkit-box-shadow: 2px 2px 8px 0px rgba(70, 70, 70, 0.69);
@@ -166,16 +166,27 @@ export default {
     width: 50%;
     margin-top: 4%;
   }
+  @media (max-width: 850px) {
+    .buttons {
+      flex-direction: column;
+    }
+    .project-tile {
+      max-width: 70%;
+    }
+  }
   @media (max-width: 550px) {
     .project-tile {
-      width: 80%;
+      max-width: 80%;
       padding: 2%;
     }
     .tech {
       font-size: 0.75rem;
     }
-    .buttons {
-      flex-direction: column;
-    }
+  }
+  @media (max-width: 400px) {
+  .project-tile {
+    max-width: 85%;
+    padding: 2%;
+  }
   }
 </style>
