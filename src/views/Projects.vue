@@ -173,6 +173,14 @@ export default {
     .project-tile {
       max-width: 70%;
     }
+    .description {
+      width: 80%;
+      margin-top: 4%;
+    }
+    .tech {
+      width: 80%;
+      margin-top: 4%;
+    }
   }
   @media (max-width: 550px) {
     .project-tile {
