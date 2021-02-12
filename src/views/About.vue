@@ -3,9 +3,9 @@
     <h1>// HELLO</h1>
     <div class="about-text">
       <p>
-        As a software engineer with a background in Business Development and Project
+        As a full stack software engineer with a background in Business Development and Project
         Management, I build elegant solutions to common and uncommon problems with a
-        focus on intuitive, user-friendly resolutions.
+        focus on intuitive, user-friendly resolutions, for both client and server sides.
       </p>
       <p>
         I specialize in bringing a calm to the storm of business with my years of
@@ -55,7 +55,7 @@ export default {
 
 <style scoped>
   .about-text {
-    width: 50%;
+    width: 60%;
     padding: 10px;
     margin: 0 auto;
   }

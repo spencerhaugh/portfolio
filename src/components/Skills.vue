@@ -9,8 +9,6 @@
                     <li><i class="fab fa-html5"></i> HTML</li>
                     <li><i class="fab fa-node-js"></i> Node.js</li>
                     <li><i class="fab fa-node"></i> Express</li>
-                    <li>MongoDB</li>
-                    <li>SQL</li>
                 </ul>
             </div>
             <div class="skills-list">
@@ -20,7 +18,6 @@
                     <li><i class="fab fa-python"></i> Python</li>
                     <li><i class="fab fa-github-square"></i> Git/Github</li>
                     <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
-                    <li>Flask</li>
                     <li>jQuery</li>
 
                 </ul>
@@ -41,14 +38,17 @@ export default {
         list-style: none;
     }
     .skills-container {
+        border: 1px solid #555;
         display: flex;
         justify-content: center;
     }
     .skills-list {
-        background-color: palegoldenrod;
         padding-left: 5px;
         padding-right: 40px;
         text-align: left;
         font-size: 1.2rem;
+    }
+    h2 {
+    color: #f5af19;
     }
 </style>

@@ -30,6 +30,9 @@ export default {
         justify-content: space-between;
         align-items: center;
     }
+    span {
+        color: #f5af19;
+    }
     @media (max-width: 1224px) {
         ul {
             width: 40%;

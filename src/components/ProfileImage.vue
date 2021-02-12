@@ -20,4 +20,7 @@ export default {
   .profile-pic-inner {
       max-width: 350px;
   }
+  h2 {
+    color: #f5af19;
+  }
 </style>
