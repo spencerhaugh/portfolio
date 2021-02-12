@@ -56,8 +56,8 @@ a {
 #nav a.router-link-exact-active {
   color: #f5af19;
 }
-a:hover {
-  color: rgb(255, 188, 64);
+#nav a:hover {
+  color: #f5af19;
 }
 a {
   text-decoration: none;
@@ -67,16 +67,16 @@ a {
       src: local("KCOraleSans"),
       url(./fonts/KCOraleSans.otf) format("opentype")
     }
-    @media (max-width: 650px) {
-  #title {
-    font-size: 6rem;
-    margin: 20px auto;
-  }
-  #nav {
-    font-size: 0.75em;
-  }
-  #projects-container button {
-    width: 100px;
-  }
+    @media (max-width: 768px) {
+      #title {
+        font-size: 4rem;
+        margin: 20px auto;
+      }
+      #nav {
+        font-size: 0.75em;
+      }
+      #projects-container button {
+        width: 100px;
+      }
 }
 </style>
