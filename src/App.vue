@@ -67,6 +67,8 @@ a {
       src: local("KCOraleSans"),
       url(./fonts/KCOraleSans.otf) format("opentype")
     }
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
     @media (max-width: 768px) {
       #title {
         font-size: 4rem;

@@ -111,8 +111,8 @@ export default {
     box-shadow:         2px 2px 8px 0px rgba(70, 70, 70, 0.69);
   }
   h2 {
-    font-family: KCOraleSans, Helvetica, Arial;
-    font-size: 5rem;
+    font-family: 'Bungee Shade', Helvetica, Arial;
+    font-size: 4rem;
     margin: 0 auto;
   }
   .projects-container {
@@ -129,12 +129,10 @@ export default {
     max-width: 55%;
     margin-top: 3%;
     margin-bottom: 3%;
-    background-color: rgba(255, 225, 170, 0.4);
+    /* background-color: rgba(255, 225, 170, 0.4); */
+    border: 1px solid #555;
     padding: 2%;
     border-radius: 20px;
-    -webkit-box-shadow: 2px 2px 12px 0px rgba(70, 70, 70, 0.69);
-    -moz-box-shadow:    2px 2px 12px 0px rgba(70, 70, 70, 0.69);
-    box-shadow:         2px 2px 12px 0px rgba(70, 70, 70, 0.69);
   }
   button {
     border: none;
@@ -181,6 +179,9 @@ export default {
       width: 80%;
       margin-top: 4%;
     }
+    h2 {
+    font-size: 3rem;
+  }
   }
   @media (max-width: 550px) {
     .project-tile {
@@ -190,11 +191,19 @@ export default {
     .tech {
       font-size: 0.75rem;
     }
+    h2 {
+    font-size: 2.5rem;
+    margin: 5px auto;
+  }
   }
   @media (max-width: 400px) {
   .project-tile {
     max-width: 85%;
     padding: 2%;
+  }
+  h2 {
+    font-size: 2rem;
+    margin: 5px auto;
   }
   }
 </style>
