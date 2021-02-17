@@ -10,26 +10,12 @@
 
 <style>
 .resume {
-  background: #1c92d2;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #f12711, #f5af19);
-  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f12711, #f5af19);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 400%;
   animation: gradient ease-in-out 5s infinite;
 }
-@keyframes gradient {
-  0% {
-    background-position: 100%;
-  }
-  50% {
-    background-position: 20%;
-  }
-  100% {
-    background-position: 100%;
-  }
 
-}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -46,6 +32,7 @@
   font-weight: bold;
   font-size: 1.25em;
   color: #2c3e50;
+  transition: 0.4s ease;
 }
 
 a {
@@ -62,13 +49,35 @@ a {
 a {
   text-decoration: none;
 }
-@font-face {
-      font-family: "KCOraleSans";
-      src: local("KCOraleSans"),
-      url(./fonts/KCOraleSans.otf) format("opentype")
-    }
+
+button:hover {
+  cursor: pointer;
+}
+button:focus {
+  outline: 4px solid transparent;
+  /* Accessibilty */
+}
+.button:active {
+  transform: scale(0.98)
+}
+
+/* Font import */
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
+/* Gradient Animation keyframes */
+@keyframes gradient {
+  0% {
+    background-position: 100%;
+  }
+  50% {
+    background-position: 20%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+/* Responsiveness */
     @media (max-width: 768px) {
       #title {
         font-size: 4rem;

@@ -4,13 +4,35 @@
         <div class="projects-container" id='projects-container'>
 
           <!-- Project Four -->
+          <div class="project-five project-tile">
+            <h2>Wide Angle Podium</h2>
+            <h3>A patreon-like support site for podcasts</h3>
+            <img src="../assets/Projects/wapn-app.png" alt="Image of the Wide Angle Podium website">
+            <div class="buttons">
+              <a href="https://www.wideanglepodium.com/" target="_blank"><button class='button live-site'>LIVE SITE</button></a>
+            </div>
+            <div class="description">
+                <strong>Description:</strong> This fully deployed and revenue-generating site
+                is a podcast network, built to collect
+                recurring donations, and receiving data from multiple podcast RSS feeds.
+                It is also integrated with the Stripe API and the Recurly API to process
+                recurring monthly payments. There are complex form submissions to track donor
+                activity, and secure pages for authorized users only.
+              </div>
+            <div class="tech">
+                <strong>Technologies Used:</strong> Wordpress CMS, Payment processing,
+                Stripe API, Recurly API, SSL, 3rd Party RSS feeds, Responsive design
+              </div>
+          </div>
+
+          <!-- Project Four -->
           <div class="project-four project-tile">
             <h2>Hangry!</h2>
             <h3>A randomized meal idea generator</h3>
             <img src="../assets/Projects/hangry-app.png" alt="Image of Hangry Project">
             <div class="buttons">
-              <a href="https://mystifying-mccarthy-7142e6.netlify.app/" target="_blank"><button class='live-site'>LIVE SITE</button></a>
-              <a href="https://github.com/spencerhaugh/leftovers-app" target="_blank"><button class='github-code'>GITHUB</button></a>
+              <a href="https://mystifying-mccarthy-7142e6.netlify.app/" target="_blank"><button class='button live-site'>LIVE SITE</button></a>
+              <a href="https://github.com/spencerhaugh/leftovers-app" target="_blank"><button class='button github-code'>GITHUB</button></a>
             </div>
             <div class="description">
                 <strong>Description:</strong> This projects goal was to learn and implement
@@ -33,8 +55,8 @@
               inventory/availablity</h3>
             <img src="../assets/Projects/farm-stan-app.png" alt="Image of Farm Stan Project">
             <div class="buttons">
-              <a href="https://farm-stan-client.herokuapp.com/" target="_blank"><button class='live-site'>LIVE SITE</button></a>
-              <a href="https://github.com/spencerhaugh/farmstan-app" target="_blank"><button class='github-code'>GITHUB</button></a>
+              <a href="https://farm-stan-client.herokuapp.com/" target="_blank"><button class='button live-site'>LIVE SITE</button></a>
+              <a href="https://github.com/spencerhaugh/farmstan-app" target="_blank"><button class='button github-code'>GITHUB</button></a>
             </div>
             <div class="description">
                 <strong>Description:</strong> This was a group project built in 1 week using
@@ -56,8 +78,8 @@
             <h3>A social media platform for cat-lovers</h3>
             <img src="../assets/Projects/catabase-app.png" alt="Image of Catabase Project">
             <div class="buttons">
-              <a href="https://enigmatic-island-67697.herokuapp.com/catabase" target="_blank"><button class='live-site'>LIVE SITE</button></a>
-              <a href="https://github.com/spencerhaugh/cats-app" target="_blank"><button class='github-code'>GITHUB</button></a>
+              <a href="https://enigmatic-island-67697.herokuapp.com/catabase" target="_blank"><button class='button live-site'>LIVE SITE</button></a>
+              <a href="https://github.com/spencerhaugh/cats-app" target="_blank"><button class='button github-code'>GITHUB</button></a>
             </div>
             <div class="description">
                 <strong>Description:</strong> This project uses server-side rendering
@@ -77,8 +99,8 @@
             <h3>A challenging color-based memory game</h3>
             <img src="../assets/Projects/dontforget-app.png" alt="Image of Memory Game Project">
             <div class="buttons">
-              <a href="https://spencerhaugh.github.io/memory-app/index.html" target="_blank"><button  class='live-site'>LIVE SITE</button></a>
-              <a href="https://github.com/spencerhaugh/memory-app" target="_blank"><button class='github-code'>GITHUB</button></a>
+              <a href="https://spencerhaugh.github.io/memory-app/index.html" target="_blank"><button  class='button live-site'>LIVE SITE</button></a>
+              <a href="https://github.com/spencerhaugh/memory-app" target="_blank"><button class='button github-code'>GITHUB</button></a>
             </div>
             <div class="description">
                 <strong>Description:</strong> This project was an exercise in game logic
@@ -144,9 +166,6 @@ export default {
     flex-direction: row;
     justify-content: space-around;
     width: 45%;
-  }
-  button:hover {
-    cursor: pointer;
   }
   .live-site {
     background-color: orange;
