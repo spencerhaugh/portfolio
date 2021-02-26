@@ -136,6 +136,10 @@ export default {
     font-family: 'Bungee Shade', Helvetica, Arial;
     font-size: 4rem;
     margin: 0 auto;
+    transition: color 0.3s ease;
+  }
+  h2:hover {
+    color: #f5af19;
   }
   .projects-container {
     display: flex;
