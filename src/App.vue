@@ -52,6 +52,8 @@ a {
 
 button:hover {
   cursor: pointer;
+  opacity: 0.9;
+  transform: scale(0.98);
 }
 button:focus {
   outline: 4px solid transparent;
