@@ -150,10 +150,7 @@ export default {
     font-family: 'Bungee Shade', Helvetica, Arial;
     font-size: 4rem;
     margin: 0 auto;
-    transition: color 0.6s ease;
-  }
-  h2:hover {
-    color: #f5af19;
+    transition: color 0.4s ease-in-out;
   }
   .projects-container {
     display: flex;
@@ -169,10 +166,16 @@ export default {
     max-width: 55%;
     margin-top: 3%;
     margin-bottom: 3%;
-    /* background-color: rgba(255, 225, 170, 0.4); */
     border: 1px solid #555;
     padding: 2%;
     border-radius: 20px;
+    transition: background-color 0.6s ease;
+  }
+  .project-tile:hover {
+    background-color: #eee;
+  }
+  .project-tile:hover h2 {
+    color: #f5af19;
   }
   button {
     border: none;
@@ -193,11 +196,7 @@ export default {
     background-color: rgb(95, 187, 115);
     color: whitesmoke;
   }
-  .description {
-    width: 50%;
-    margin-top: 4%;
-  }
-  .tech {
+  .description, .tech {
     width: 50%;
     margin-top: 4%;
   }

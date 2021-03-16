@@ -104,6 +104,9 @@ export default {
     margin: 1% auto;
     background-color: rgb(247, 242, 242);
     border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(70, 70, 70, 0.69);
+    -moz-box-shadow:    2px 2px 8px 0px rgba(70, 70, 70, 0.69);
+    box-shadow:         2px 2px 8px 0px rgba(70, 70, 70, 0.69);
   }
   h1 {
     padding: 10px;
@@ -125,6 +128,9 @@ export default {
     border-radius: 10px;
     width: 80%;
     margin: 10px 0;
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(70, 70, 70, 0.69);
+    -moz-box-shadow:    2px 2px 8px 0px rgba(70, 70, 70, 0.69);
+    box-shadow:         2px 2px 8px 0px rgba(70, 70, 70, 0.69);
   }
   @media (max-width: 850px) {
     .about {

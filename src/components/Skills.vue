@@ -37,6 +37,9 @@ export default {
     ul {
         list-style: none;
     }
+    li {
+        transition: color 0.3s ease-in-out;
+    }
     .skills-container {
         border: 1px solid #555;
         display: flex;
@@ -50,5 +53,8 @@ export default {
     }
     h2 {
     color: #f5af19;
+    }
+    li:hover {
+        color: #f5af19;
     }
 </style>
