@@ -1,34 +1,7 @@
 <template>
+  <h1>// HELLO</h1>
   <div class="about">
-    <h1>// HELLO</h1>
-    <div class="about-text">
-      <p>
-        As a full stack software engineer with a background in Business Development and Project
-        Management, I build elegant solutions to common and uncommon problems with a
-        focus on intuitive, user-friendly resolutions, for both client and server sides.
-      </p>
-      <p>
-        I specialize in bringing a calm to the storm of business with my years of
-        experience in process improvement, problem-solving, and client-first solutions.
-      </p>
-      <p>
-        But that's business. I'm a lot more than that! My favorite hobby outside of the
-        office is cycling. I've raced bicycles for years, and I enjoy it so much that
-        I have a fairly popular podcast about it (The Slow Ride Podcast).
-      </p>
-      <p>
-        I also have a 1988 VW Vanagon that I am trying to restore, I don't know a
-        lot about cars but I'm trying to learn.
-      </p>
-      <p>
-        Lastly, I'm still trying to get better at play guitar, but I'm only about as
-        good as I was at 15. Still, I really enjoy it!
-      </p>
-      <br />
-      <p>
-        Feel free to ask me about any of these interests, I love to talk about them!
-      </p>
-    </div>
+
     <div class="about-container">
       <div class="profile-pic">
         <ProfileImage />
@@ -37,6 +10,66 @@
         <Skills />
       </div>
     </div>
+
+    <article class="about-text">
+      <section id="professional">
+        <h3>About Me</h3>
+        <p>
+          As a full stack software engineer with a background in Business Development and Marketing,
+          I strive to build elegant solutions to common and uncommon problems with a
+          focus on intuitive, user-friendly resolutions. I excel in Javascript, and have experience
+          with React and Vue, as well as Node for the backend.
+        </p>
+        <p>
+          I also may be one of those rare
+          developers that loves working with CSS and Sass.
+        </p>
+        <p>
+          As a patient soul, I excel in bringing a calm to the storm of business with my years of
+          experience in process improvement, problem-solving, and client-first solutions.
+          My background in marketing and my interst in design lend to my strength
+          in front end development, but my analytical side also loves backend work.
+          (My love of Excel spreadsheets is a dead giveaway).
+        </p>
+        <p>
+          I fell in love with programming because of the endless learning! I am a person
+          who loves adding new skills to my knowledge base. Next on my personal
+          agenda to learn is: Docker, Typescript, and Next. Along with exploring the
+          JAMStack.
+        </p>
+      </section>
+
+      <section id="personal">
+        <h3>Ok, Really About Me</h3>
+        <p>
+          But that's business, and I'm a lot more than that! My favorite hobby outside of the
+          office is cycling. I've raced bicycles for years, and I enjoy it so much that
+          I have a fairly popular podcast about it, (The Slow Ride Podcast). I really
+          enjoy creating #content.
+        </p>
+        <p>
+          I also have a 1988 VW Vanagon that I am trying to restore, I don't know a
+          lot about cars but I'm trying to learn.
+        </p>
+        <p>
+          Lastly, I'm still trying to get better at play guitar, but I'm only about as
+          good as I was at 15. Still, I really enjoy it!
+        </p>
+        <p>
+          (Feel free to ask me about any of these interests, I love to talk about them!)
+        </p>
+      </section>
+
+      <section id="important">
+        <h3>Also:</h3>
+        <p>I also <strong>*strongly*</strong> believe in equality and dismantling problematic
+          systemic infrastructure such as racism, sexism, homophobia, and the toxic enviroments
+          that enable them. I think that this is necessary and important information to put
+          here on the site, as any company I agree to work for will absolutely
+          need to share those beliefs.
+        </p>
+      </section>
+    </article>
   </div>
 </template>
 
@@ -54,24 +87,54 @@ export default {
 </script>
 
 <style scoped>
-  .about-text {
-    width: 60%;
-    padding: 10px;
+  .about {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: flex-start;
     margin: 0 auto;
+  }
+  .about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 3%;
+    margin: 1% auto;
+    background-color: rgb(247, 242, 242);
+    border-radius: 10px;
   }
   h1 {
     padding: 10px;
   }
   .about-container {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 5%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 3%;
   }
-  @media (max-width: 650px) {
-    .about-container {
+  .profile-pic {
+    margin-bottom: 20%;
+  }
+  #personal {
+    background-color: #f5af19;
+    color: #fff;
+    padding: 1% 3%;
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px 0;
+  }
+  @media (max-width: 850px) {
+    .about {
       flex-direction: column;
       align-items: center;
+    }
+    .about-text {
+      width: 90%;
+      margin-top: 5%;
+      margin-bottom: 5%;
     }
   }
 </style>
