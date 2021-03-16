@@ -15,8 +15,8 @@
       <section id="professional">
         <h3>About Me</h3>
         <p>
-          As a full stack software engineer with a background in Business Development and Marketing,
-          I strive to build elegant solutions to common and uncommon problems with a
+          I am a full stack software developer with a background in Business Development and
+          Marketing. I strive to build elegant solutions to common and uncommon problems with a
           focus on intuitive, user-friendly resolutions. I excel in Javascript, and have experience
           with React and Vue, as well as Node for the backend.
         </p>

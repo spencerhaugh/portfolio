@@ -49,7 +49,9 @@ a {
 a {
   text-decoration: none;
 }
-
+button {
+  transition: transform 0.3 ease;
+}
 button:hover {
   cursor: pointer;
   opacity: 0.9;
@@ -58,9 +60,6 @@ button:hover {
 button:focus {
   outline: 4px solid transparent;
   /* Accessibilty */
-}
-.button:active {
-  transform: scale(0.98)
 }
 
 /* Font import */

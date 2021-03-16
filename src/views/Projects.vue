@@ -15,7 +15,7 @@
             </div>
             <div class="description">
                 <strong>Description:</strong> This fully deployed and revenue-generating site
-                is a podcast network, built to collect
+                is built for a podcast network, built to collect
                 recurring donations, and receiving data from multiple podcast RSS feeds.
                 It is also integrated with the Stripe API and the Recurly API to process
                 recurring monthly payments. There are complex form submissions to track donor
