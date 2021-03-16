@@ -9,11 +9,15 @@
                 <li><i class="fab fa-github-square fa-2x"></i> <span><a href="https://github.com/spencerhaugh" target="_blank">github.com/spencerhaugh</a></span></li>
             </ul>
         </h3>
+        <Resume />
     </div>
 </template>
 
 <script>
+import Resume from '../components/Resume.vue';
+
 export default {
+  components: { Resume },
   name: 'Contact',
 };
 </script>

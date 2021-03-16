@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    <h1 id='title' class="bounce-in-top">Spencer Haugh</h1>
+    <h1 id='site-title' class="bounce-in-top">
+        <span id="title">Spencer Haugh</span>
+    </h1>
     <HelloWorld msg="// Let's Get Radical"/>
     <Resume />
   </div>
@@ -26,10 +28,14 @@ export default {
   h1 {
     font-family: 'Bungee Shade', cursive;
     font-size: 8rem;
+    transition: color 0.3s ease-in-out;
   }
   h1.bounce-in-top {
     -webkit-animation: bounce-in-top 1.1s 0.4s both;
     animation: bounce-in-top 1.1s 0.4s both;
+  }
+  h1:hover {
+    color: #f5af19;
   }
 
 /* animation keyframes .bounce-in-top */

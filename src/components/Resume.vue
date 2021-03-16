@@ -17,7 +17,6 @@ export default {
         padding: 15px;
         width: 220px;
         color: cornsilk;
-        background-color: orange;
         border: 1px solid transparent;
         font-size: 1.2rem;
         font-weight: bold;

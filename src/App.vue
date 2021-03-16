@@ -16,6 +16,16 @@
   animation: gradient ease-in-out 5s infinite;
 }
 
+#title {
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(to right, #f5af19, #f12711);
+  background-size: 400%;
+  animation: gradient ease-in-out 5s infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -49,12 +59,13 @@ a {
 a {
   text-decoration: none;
 }
-button {
-  transition: transform 0.3 ease;
+.button {
+  transition: all 0.3s ease-in-out;
 }
-button:hover {
+.button:hover {
   cursor: pointer;
   opacity: 0.9;
+  border-radius: 10px;
   transform: scale(0.98);
 }
 button:focus {
