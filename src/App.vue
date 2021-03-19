@@ -28,10 +28,14 @@
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  width: 100vw;
 }
 
 #nav {
@@ -93,7 +97,6 @@ button:focus {
     @media (max-width: 768px) {
       #title {
         font-size: 4rem;
-        margin: 20px auto;
       }
       #nav {
         font-size: 0.75em;

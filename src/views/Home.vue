@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1 id='site-title' class="bounce-in-top">
-        <span id="title">Spencer Haugh</span>
+        <div id="title">Spencer Haugh</div>
     </h1>
     <HelloWorld msg="// Let's Get Radical"/>
     <Resume />
@@ -24,6 +24,16 @@ export default {
 <style scoped>
   img {
     width: 90%;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  #title {
+    width: 100vw;
   }
   h1 {
     font-family: 'Bungee Shade', cursive;
