@@ -14,13 +14,19 @@ export default {
 <style scoped>
   img {
     border-radius: 50%;
-    width: 45%;
+    width: 65%;
     margin-top: -4%;
+    animation: floating 2.5s infinite ease-in-out;
   }
   .profile-pic-inner {
       max-width: 350px;
   }
   h2 {
     color: #f5af19;
+  }
+  @keyframes floating {
+    0% {transform: translate(0, 0px);}
+    50% {transform: translate(0, 15px);}
+    100% {transform: translate(0, -0px);}
   }
 </style>

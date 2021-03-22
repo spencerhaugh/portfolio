@@ -57,4 +57,10 @@ export default {
     li:hover {
         color: #f5af19;
     }
+    @media (max-width: 600px) {
+      .skills-list {
+          font-size: 0.7rem;
+          padding-top: 10px;
+      }
+  }
 </style>
