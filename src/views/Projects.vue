@@ -3,32 +3,34 @@
         <h1>// THE GOODS</h1>
         <div class="projects-container" id='projects-container'>
 
-          <!-- Project Four -->
-          <div class="project-five project-tile">
-            <h2>Wide Angle Podium</h2>
-            <h3>A patreon-like support site for podcasts</h3>
-            <a href="https://www.wideanglepodium.com/" target="_blank">
-              <img src="../assets/Projects/wapn-app.png" alt="Image of Wide Angle Podium website">
+          <!-- Project Six -->
+          <div class="project-six project-tile">
+            <h2>Real Time #Dogecoin</h2>
+            <h3>A real time stream of tweets about $DOGE</h3>
+            <a href="https://dry-temple-34762.herokuapp.com/" target="_blank">
+              <img src="../assets/Projects/doge-app.png" alt="Image of Memory Game Project">
             </a>
             <div class="buttons">
-              <a href="https://www.wideanglepodium.com/" target="_blank"><button class='button live-site'>LIVE SITE</button></a>
+              <a href="https://dry-temple-34762.herokuapp.com/" target="_blank"><button  class='button live-site'>LIVE SITE</button></a>
+              <a href="https://github.com/spencerhaugh/real-time-twitter-app" target="_blank"><button class='button github-code'>GITHUB</button></a>
             </div>
             <div class="description">
-                <strong>Description:</strong> This fully deployed and revenue-generating site
-                is built for a podcast network, built to collect
-                recurring donations, and receiving data from multiple podcast RSS feeds.
-                It is also integrated with the Stripe API and the Recurly API to process
-                recurring monthly payments. There are complex form submissions to track donor
-                activity, and secure pages for authorized users only.
+                <strong>Description:</strong> This was a super fun project using Twitter's API to
+                preform a search for tweets containing a specific hashtag, and returning those
+                tweets in <em>real time</em> as they happen. This was achieved using socket.io
+                and connecting with the Twitter API, and then manipulating the DOM in the browser
+                with Javascript.
+                I created a header svg image in Adode Illustrator, and added some basic styling
+                by integrating the site with with Bootstrap.
               </div>
             <div class="tech">
-                <strong>Technologies Used:</strong> Wordpress CMS, Payment processing,
-                Stripe API, Recurly API, SSL, 3rd Party RSS feeds, Responsive design
+                <strong>Technologies Used:</strong> Socket.io, Twitter API, Node, Express,
+                Javascript, HTML, CSS, Bootstrap, Responsive design, DOM manipulation.
               </div>
           </div>
 
-          <!-- Project Four -->
-          <div class="project-four project-tile">
+          <!-- Project Five -->
+          <div class="project-five project-tile">
             <h2>Hangry!</h2>
             <h3>A randomized meal idea generator</h3>
             <a href="https://mystifying-mccarthy-7142e6.netlify.app/" target="_blank">
@@ -49,6 +51,30 @@
                 Node, Express, MongoDB,
                 Client-side Rendering,
                 3rd Party API, RESTful Routing, Responsive design
+              </div>
+          </div>
+
+          <!-- Project four -->
+          <div class="project-four project-tile">
+            <h2>Wide Angle Podium</h2>
+            <h3>A patreon-like support site for podcasts</h3>
+            <a href="https://www.wideanglepodium.com/" target="_blank">
+              <img src="../assets/Projects/wapn-app.png" alt="Image of Wide Angle Podium website">
+            </a>
+            <div class="buttons">
+              <a href="https://www.wideanglepodium.com/" target="_blank"><button class='button live-site'>LIVE SITE</button></a>
+            </div>
+            <div class="description">
+                <strong>Description:</strong> This fully deployed and revenue-generating site
+                is built for a podcast network, built to collect
+                recurring donations, and receiving data from multiple podcast RSS feeds.
+                It is also integrated with the Stripe API and the Recurly API to process
+                recurring monthly payments. There are complex form submissions to track donor
+                activity, and secure pages for authorized users only.
+              </div>
+            <div class="tech">
+                <strong>Technologies Used:</strong> Wordpress CMS, Payment processing,
+                Stripe API, Recurly API, SSL, 3rd Party RSS feeds, Responsive design
               </div>
           </div>
 
@@ -173,6 +199,7 @@ export default {
   }
   .project-tile:hover {
     background-color: #eee;
+
   }
   .project-tile:hover h2 {
     color: #f5af19;

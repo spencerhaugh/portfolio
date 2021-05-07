@@ -1,14 +1,14 @@
 <template>
     <div class="contact">
         <h1>// LET'S TALK</h1>
-        <h3>
+        <div class="contact-container">
             <ul>
                 <li><i class="fas fa-envelope-square fa-2x"></i> <span> spencer.haugh@gmail.com
                     </span></li>
                 <li><i class="fab fa-linkedin fa-2x"></i> <span><a href="https://linkedin.com/in/spencerhaugh" target="_blank">linkedin.com/in/spencerhaugh</a></span></li>
                 <li><i class="fab fa-github-square fa-2x"></i> <span><a href="https://github.com/spencerhaugh" target="_blank">github.com/spencerhaugh</a></span></li>
             </ul>
-        </h3>
+        </div>
         <Resume />
     </div>
 </template>
@@ -23,6 +23,11 @@ export default {
 </script>
 
 <style scoped>
+    .contact-container {
+        font-size: 1rem;
+        margin: 2%;
+
+    }
     ul {
         list-style: none;
         width: 25%;
@@ -58,11 +63,13 @@ export default {
         }
         ul {
             width: 50%;
+            margin: 8% auto;
         }
     }
-    @media (max-width: 400px) {
+    @media (max-width: 515px) {
         ul {
             width: 90%;
+            margin: 10% auto;
         }
     }
     }

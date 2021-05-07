@@ -1,25 +1,28 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/projects">Projects</router-link> |
+    <router-link to="/">Home</router-link>
+    <router-link to="/about">About</router-link>
+    <router-link to="/projects">Projects</router-link>
     <router-link to="/contact">Contact</router-link>
   </div>
+  <div class="nav-line"></div>
   <router-view/>
 </template>
 
 <style>
 .resume {
-  background: -webkit-linear-gradient(to right, #f12711, #f5af19);
-  background: linear-gradient(to right, #f12711, #f5af19);
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background-size: 400%;
   animation: gradient ease-in-out 5s infinite;
 }
 
 #title {
-  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
-  background: linear-gradient(to right, #f5af19, #f12711);
-  background-size: 400%;
+  /* background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(to right, #f5af19, #f12711); */
+  background: -webkit-linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  background-size: 500%;
   animation: gradient ease-in-out 5s infinite;
   background-clip: text;
   -webkit-background-clip: text;
@@ -46,7 +49,10 @@
   font-weight: bold;
   font-size: 1.25em;
   color: #2c3e50;
-  transition: 0.4s ease;
+  transition: 0.4s ease-in-out;
+  padding: 5px 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 a {
@@ -56,9 +62,15 @@ a {
 
 #nav a.router-link-exact-active {
   color: #f5af19;
+  background-color: #2c3e50;
 }
 #nav a:hover {
+  /* color: #f5af19; */
+  background-color: #f5af19;
+}
+#nav a.router-link-exact-active:hover {
   color: #f5af19;
+  background-color: #2c3e50;
 }
 a {
   text-decoration: none;
@@ -75,6 +87,13 @@ a {
 button:focus {
   outline: 4px solid transparent;
   /* Accessibilty */
+}
+
+.nav-line {
+  background-color: #2c3e50;
+  height: 4px;
+  width: 100%;
+  transform: translateY(-25px)
 }
 
 /* Font import */

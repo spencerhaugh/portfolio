@@ -9,16 +9,17 @@
                     <li><i class="fab fa-html5"></i> HTML</li>
                     <li><i class="fab fa-node-js"></i> Node.js</li>
                     <li><i class="fab fa-node"></i> Express</li>
+                    <li><i class="fas fa-universal-access"></i> A11y</li>
                 </ul>
             </div>
             <div class="skills-list">
                 <ul>
-                    <li><i class="fab fa-vuejs"></i> Vue.js</li>
                     <li><i class="fab fa-react"></i> React</li>
-                    <li><i class="fab fa-python"></i> Python</li>
                     <li><i class="fab fa-github-square"></i> Git/Github</li>
+                    <li><i class="fab fa-vuejs"></i> Vue.js</li>
+                    <li><i class="fab fa-python"></i> Python</li>
                     <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
-                    <li>jQuery</li>
+                    <li><i class="far fa-question-circle"></i> jQuery</li>
 
                 </ul>
             </div>
@@ -38,12 +39,13 @@ export default {
         list-style: none;
     }
     li {
-        transition: color 0.3s ease-in-out;
+        transition: all .5s ease-in-out;
     }
     .skills-container {
         border: 1px solid #555;
         display: flex;
         justify-content: center;
+        border-radius: 10px;
     }
     .skills-list {
         padding-left: 5px;
@@ -56,6 +58,7 @@ export default {
     }
     li:hover {
         color: #f5af19;
+        transform: translateX(-10px)
     }
     @media (max-width: 600px) {
       .skills-list {
