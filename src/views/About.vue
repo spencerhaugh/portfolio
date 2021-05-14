@@ -18,11 +18,13 @@
           I am a full stack software developer with a background in Business Development and
           Marketing. I strive to build elegant solutions to common and uncommon problems with a
           focus on intuitive, user-friendly resolutions. I excel in Javascript, and have experience
-          with React and Vue, as well as Node for the backend.
+          with React and Vue, as well as Node and Express for the backend.
+          (I dabble in Python too!)
         </p>
         <p>
-          I also may be one of those rare
-          developers that loves working with CSS and Sass.
+          I am one of those rare
+          developers that loves working with CSS and styling, and I am loving Sass.
+          I love building in that interaction with users, and creating great experiences.
         </p>
         <p>
           As a patient soul, I excel in bringing a calm to the storm of business with my years of
@@ -33,9 +35,9 @@
         </p>
         <p>
           I fell in love with programming because of the endless learning! I am a person
-          who loves adding new skills to my knowledge base. Next on my personal
-          agenda to learn is: Docker, Typescript, and Next. Along with exploring the
-          JAMStack.
+          who loves adding new skills to my knowledge base, and with code there is no end to
+          knowledge! I am excited to learn from great companies and great mentors!
+          Next on my personal agenda to learn is: Docker, Typescript, and Next.
         </p>
       </section>
 
