@@ -1,10 +1,36 @@
 <template>
-    <div class="project-page">
+    <section class="project-page">
         <h1>// THE GOODS</h1>
         <div class="projects-container" id='projects-container'>
 
-          <!-- Project Six -->
-          <div class="project-six project-tile">
+          <!-- Project One -->
+          <article class="project-one project-tile">
+            <h2>Palette Maker!</h2>
+            <h3>A custom color palette creator</h3>
+            <a href="https://cranky-murdock-697124.netlify.app/" target="_blank">
+              <img src="../assets/Projects/color-app.png" alt="Color picker app">
+            </a>
+            <div class="buttons">
+              <a href="https://cranky-murdock-697124.netlify.app/" target="_blank"><button  class='button live-site'>LIVE SITE</button></a>
+              <a href="https://github.com/spencerhaugh/color-project" target="_blank"><button class='button github-code'>GITHUB</button></a>
+            </div>
+            <div class="description">
+                <strong>Description:</strong> This was a really fun project! This React project
+                implements advanced React patterns and UI functionality (like drag and drop,
+                copy to clipboard, and transistions).
+                The app utilizes concepts like Higher Order Components, Context, and Reducers for
+                state management in React, Drag and Drop libraries, MaterialUI for
+                component styling, and more.
+              </div>
+            <div class="tech">
+                <strong>Technologies Used:</strong> React, Javascript, HTML,
+                CSS, JSS, CRA, Material UI, Drag and Drop, React Transistion Group, Responsive UI
+                design
+              </div>
+          </article>
+
+          <!-- Project Two -->
+          <article class="project-two project-tile">
             <h2>Real Time #Dogecoin</h2>
             <h3>A real time stream of tweets about $DOGE</h3>
             <a href="https://dry-temple-34762.herokuapp.com/" target="_blank">
@@ -27,35 +53,36 @@
                 <strong>Technologies Used:</strong> Socket.io, Twitter API, Node, Express,
                 Javascript, HTML, CSS, Bootstrap, Responsive design, DOM manipulation.
               </div>
-          </div>
+          </article>
 
-          <!-- Project Five -->
-          <div class="project-five project-tile">
-            <h2>Hangry!</h2>
-            <h3>A randomized meal idea generator</h3>
-            <a href="https://mystifying-mccarthy-7142e6.netlify.app/" target="_blank">
-              <img src="../assets/Projects/hangry-app.png" alt="Image of Hangry Project">
+          <!-- Project Three -->
+          <article class="project-three project-tile">
+            <h2>Race Recaps</h2>
+            <h3>A micro blogging social media app</h3>
+            <a href="https://recaps-app.herokuapp.com/" target="_blank">
+              <img src="../assets/Projects/recap-app.png" alt="Color picker app">
             </a>
             <div class="buttons">
-              <a href="https://mystifying-mccarthy-7142e6.netlify.app/" target="_blank"><button class='button live-site'>LIVE SITE</button></a>
-              <a href="https://github.com/spencerhaugh/leftovers-app" target="_blank"><button class='button github-code'>GITHUB</button></a>
+              <a href="https://recaps-app.herokuapp.com/" target="_blank"><button  class='button live-site'>LIVE SITE</button></a>
+              <a href="https://github.com/spencerhaugh/race-recaps" target="_blank"><button class='button github-code'>GITHUB</button></a>
             </div>
             <div class="description">
-                <strong>Description:</strong> This projects goal was to learn and implement
-                new technologies to my skillset, in a 1 week timeframe.
-                I chose to implement Vue.js for the first time,
-                along with a 3rd Party API.
+                <strong>Description:</strong> This is a micro blogging app for post-event recaps
+                from sports event participants to share the experience with fans, and each other.
+                Authentication is enabled with OAuth for login via Google. The app is a server side
+                rendering app, built with Node and Express, and rendering content with Handlebars.
+                The app uses Google's API and Passport to authenticate users, and stores their
+                data in the MongoDB database.
               </div>
             <div class="tech">
-                <strong>Technologies Used:</strong> Vue,
-                Node, Express, MongoDB,
-                Client-side Rendering,
-                3rd Party API, RESTful Routing, Responsive design
+                <strong>Technologies Used:</strong> React, Javascript, HTML,
+                CSS, JSS, CRA, Material UI, Drag and Drop, React Transistion Group,
+                Responsive UI design
               </div>
-          </div>
+          </article>
 
-          <!-- Project four -->
-          <div class="project-four project-tile">
+          <!-- Project Four -->
+          <article class="project-four project-tile">
             <h2>Wide Angle Podium</h2>
             <h3>A patreon-like support site for podcasts</h3>
             <a href="https://www.wideanglepodium.com/" target="_blank">
@@ -76,80 +103,10 @@
                 <strong>Technologies Used:</strong> Wordpress CMS, Payment processing,
                 Stripe API, Recurly API, SSL, 3rd Party RSS feeds, Responsive design
               </div>
-          </div>
+          </article>
 
-          <!-- Project Three -->
-          <div class="project-three project-tile">
-            <h2>Farm Stan</h2>
-            <h3>App connecting customers to current Farmers Market product
-              inventory/availablity</h3>
-            <a href="https://farm-stan-client.herokuapp.com/" target="_blank">
-              <img src="../assets/Projects/farm-stan-app.png" alt="Image of Farm Stan Project">
-            </a>
-            <div class="buttons">
-              <a href="https://farm-stan-client.herokuapp.com/" target="_blank"><button class='button live-site'>LIVE SITE</button></a>
-              <a href="https://github.com/spencerhaugh/farmstan-app" target="_blank"><button class='button github-code'>GITHUB</button></a>
-            </div>
-            <div class="description">
-                <strong>Description:</strong> This was a group project built in 1 week using
-                React with an Express/Node backend, including Authentication
-                and using JWT tokens. I worked mainly on the
-                front end design.
-              </div>
-            <div class="tech">
-                <strong>Technologies Used:</strong> React,
-                Node, Express,
-                MongoDB, MERN Stack, Client-side Rendering,
-                RESTful Routing, Authentication, Responsive design
-              </div>
-          </div>
-
-          <!-- Project Two -->
-          <div class="project-two project-tile">
-            <h2>Catabase</h2>
-            <h3>A social media platform for cat-lovers</h3>
-            <a href="https://enigmatic-island-67697.herokuapp.com/catabase" target="_blank">
-              <img src="../assets/Projects/catabase-app.png" alt="Image of Catabase Project">
-            </a>
-            <div class="buttons">
-              <a href="https://enigmatic-island-67697.herokuapp.com/catabase" target="_blank"><button class='button live-site'>LIVE SITE</button></a>
-              <a href="https://github.com/spencerhaugh/cats-app" target="_blank"><button class='button github-code'>GITHUB</button></a>
-            </div>
-            <div class="description">
-                <strong>Description:</strong> This project uses server-side rendering
-                and MongoDB to securely log in users and allow them to
-                upload data. This is a full CRUD app, with Authentication.
-              </div>
-            <div class="tech">
-                <strong>Technologies Used:</strong> Node,
-                Express, MongoDB, EJS, Sever-side Rendering,
-                Authentication, RESTful Routing, Responsive design
-              </div>
-          </div>
-
-          <!-- Project One -->
-          <div class="project-one project-tile">
-            <h2>Don't Forget!</h2>
-            <h3>A challenging color-based memory game</h3>
-            <a href="https://spencerhaugh.github.io/memory-app/index.html" target="_blank">
-              <img src="../assets/Projects/dontforget-app.png" alt="Image of Memory Game Project">
-            </a>
-            <div class="buttons">
-              <a href="https://spencerhaugh.github.io/memory-app/index.html" target="_blank"><button  class='button live-site'>LIVE SITE</button></a>
-              <a href="https://github.com/spencerhaugh/memory-app" target="_blank"><button class='button github-code'>GITHUB</button></a>
-            </div>
-            <div class="description">
-                <strong>Description:</strong> This project was an exercise in game logic
-                and DOM manipulation. The goal was to code a game in 1 week,
-                with win/loss logic using only HTML, CSS, and jQuery.
-              </div>
-            <div class="tech">
-                <strong>Technologies Used:</strong> jQuery, HTML,
-                CSS, Responsive design
-              </div>
-          </div>
         </div>
-    </div>
+    </section>
 
 </template>
 
