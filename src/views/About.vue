@@ -52,7 +52,7 @@
           enjoy creating #content.
         </p>
         <p>I think the years of dedication to training and racing bikes, helps me tremendously
-          as a developer. As a bike racer I spend a lot of time training solo, pputting the work
+          as a developer. As a bike racer I spend a lot of time training solo, putting in the work
           to be my best. But, cycling is a team sport, and on race day it's knowing how to
           work effectively with the whole team that allows us to achieve our goals.
           Communication is critical.
