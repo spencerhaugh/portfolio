@@ -1,7 +1,7 @@
 <template>
     <div class="profile-pic-inner">
         <h2>// SPENCER</h2>
-        <img src="../assets/new_profile_pic.png" alt="Image of Spencer Haugh">
+        <img src="../assets/transBG_profile_pic.png" alt="Image of Spencer Haugh">
       </div>
 </template>
 
@@ -15,6 +15,7 @@ export default {
   img {
     width: 65%;
     margin-top: -4%;
+    border-radius: 50%;
     animation: slide-in-blurred-left 1.25s cubic-bezier(0.165, 0.84, 0.44, 1) .25s both;
   }
   .profile-pic-inner {
