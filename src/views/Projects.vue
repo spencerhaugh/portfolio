@@ -146,6 +146,7 @@ export default {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    background-color: rgba(238, 238, 238, 0.3);
     max-width: 55%;
     margin-top: 3%;
     margin-bottom: 3%;
@@ -155,7 +156,7 @@ export default {
     transition: background-color 0.6s ease;
   }
   .project-tile:hover {
-    background-color: #eee;
+    background-color: rgba(238, 238, 238, 0.6);
 
   }
   .project-tile:hover h2 {

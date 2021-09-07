@@ -48,6 +48,8 @@ export default {
     }
     li:hover i {
         color: #f5af19;
+        transition: 0.5s ease-in-out;
+        transform: translateX(5px);
     }
     ul li.slide-in-tl {
     -webkit-animation: slide-in-tl 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;

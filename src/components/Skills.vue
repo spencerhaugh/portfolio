@@ -42,6 +42,7 @@ export default {
         transition: all .5s ease-in-out;
     }
     .skills-container {
+        background-color: rgba(238, 238, 238, 0.3);
         border: 1px solid #555;
         display: flex;
         justify-content: center;
