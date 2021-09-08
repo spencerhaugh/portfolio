@@ -13,33 +13,45 @@
 
     <article class="about-text">
       <section id="professional">
-        <h3>About Me</h3>
+        <h3>Hi! I'm Spencer.</h3>
         <p>
-          I am a full stack software developer with a background in Business Development and
-          Marketing. I strive to build elegant solutions to common and uncommon problems with a
-          focus on intuitive, user-friendly resolutions. I excel in Javascript, and have significant
-          eperience with React. I also have built with Vue, as well as Node and Express for
-          the backend. (I even dabble in Python too!)
+          I am a frontend-focused software developer with a background in Marketing and
+          Customer Experience, and I'm currently looking for my next role!
+          I am a React, Javascript, and CSS developer with strengths in design, creativity,
+          cross-discipline collaboration, and communication.
         </p>
         <p>
-          I am one of those rare software
-          developers that really loves working with CSS and styling, and am experienced with
-          CSS compiliers like Sass, and using CSS-in-JS. I love making sites responsive!
-          I also really love building interactive features for users and creating great experiences.
+          I love building fun and functional web apps, and making sure the web continues to be
+          a place that is accessible for everyone. I am certified in several Adobe design programs,
+          and love to collaborate across disciplines and teams (UX designers, PMs, etc) to build
+          amazing sites that customers love to use.
+        </p>
+
+        <h3>What I'm Looking For</h3>
+        <p>
+          I'm looking for a healthy, vibrant enviroment where I can do my best work! I'm looking
+          for a company that values diversity, creativity, and where I can make an impact with my
+          development skills in a positive, supportive, and growth-oriented atmosphere.
         </p>
         <p>
-          I excel in bringing a calm to the storm of business with my years of
-          experience in process improvement, problem-solving, and client-first solutions.
-          I've put out a lot of "fires" in my time, and am quite good under pressure.
-          My background in marketing and my interest in design lend to my strengths
-          in front end development, but my analytical side also loves backend work as well.
-          (My love of Excel spreadsheets is probably a dead giveaway).
+          I am looking for a company culture the places trust in it's teams, encourages and
+          supports them to do their best work with a balance of guidance, mentorship, and autonomy.
         </p>
         <p>
-          I fell in love with programming because of the endless learning! I am a person
+          I am excited to be a long term part of that company's success and growth!
+        </p>
+        <p>
+          I fell in love with programming because of the endless learning. I am a person
           who loves adding new skills to my knowledge base, and with code there is no end to
-          knowledge! I am excited to learn from great companies and great mentors!
-          Next on my personal agenda to learn is: GraphQL, Typescript, and Next.
+          knowledge! I am excited to learn from great companies and great mentors.
+        </p>
+        <p>
+          Next on my personal learning agenda is: GraphQL, Typescript, and Next.js
+        </p>
+        <p>
+          Oh, I'm also looking for a space fail and make mistakes. A love of learning implicitly
+          comes with a healthy amount of mistakes! I aim to grow into the best developer I can
+          possibly be for you, and the biggest successes are certainly bred from failure.
         </p>
       </section>
 
