@@ -27,6 +27,7 @@ export default {
     .contact-container {
         font-size: 1.25rem;
         padding-right: 1rem;
+        overflow: hidden;
     }
     ul {
         list-style: none;
