@@ -46,7 +46,7 @@
                 tweets in <em>real time</em> as they happen. This was achieved using socket.io
                 and connecting with the Twitter API, and then manipulating the DOM in the browser
                 with Javascript.
-                I created a header svg image in Adode Illustrator, and added some basic styling
+                I created a header svg image in Adobe Illustrator, and added some basic styling
                 by integrating the site with with Bootstrap.
               </div>
             <div class="tech">

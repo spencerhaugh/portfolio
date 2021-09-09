@@ -49,7 +49,7 @@
           Next on my personal learning agenda is: GraphQL, Typescript, and Next.js
         </p>
         <p>
-          Oh, I'm also looking for a space fail and make mistakes. A love of learning implicitly
+          Oh, I'm also looking for a space to fail and make mistakes. A love of learning implicitly
           comes with a healthy amount of mistakes! I aim to grow into the best developer I can
           possibly be for you, and the biggest successes are certainly bred from failure.
         </p>
