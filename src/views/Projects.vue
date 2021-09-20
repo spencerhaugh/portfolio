@@ -75,9 +75,9 @@
                 data in the MongoDB database.
               </div>
             <div class="tech">
-                <strong>Technologies Used:</strong> React, Javascript, HTML,
-                CSS, JSS, CRA, Material UI, Drag and Drop, React Transistion Group,
-                Responsive UI design
+                <strong>Technologies Used:</strong> Handlebars, Javascript, HTML,
+                CSS, Node.js, Express, Google API, Materialize, MongoDB, NoSQL,
+                Mongoose, Responsive UI design
               </div>
           </article>
 
