@@ -7,20 +7,17 @@
                     <li><i class="fab fa-js"></i> Javascript</li>
                     <li><i class="fab fa-css3-alt"></i> CSS</li>
                     <li><i class="fab fa-html5"></i> HTML</li>
+                    <li><i class="fab fa-git-alt"></i> Git/Github/Gitlab</li>
                     <li><i class="fab fa-node-js"></i> Node.js</li>
-                    <li><i class="fab fa-node"></i> Express</li>
-                    <li><i class="fas fa-universal-access"></i> A11y</li>
                 </ul>
             </div>
             <div class="skills-list">
                 <ul>
+                    <li><i class="fab fa-angular"></i> Angular</li>
+                    <li><i class="fab fa-node"></i> Express</li>
                     <li><i class="fab fa-react"></i> React</li>
-                    <li><i class="fab fa-github-square"></i> Git/Github</li>
                     <li><i class="fab fa-vuejs"></i> Vue.js</li>
-                    <li><i class="fab fa-python"></i> Python</li>
-                    <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
-                    <li><i class="far fa-question-circle"></i> jQuery</li>
-
+                    <li><i class="fas fa-universal-access"></i> A11y</li>
                 </ul>
             </div>
         </div>

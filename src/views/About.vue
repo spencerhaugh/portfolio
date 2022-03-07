@@ -15,16 +15,16 @@
       <section id="professional">
         <h3>Hi! I'm Spencer.</h3>
         <p>
-          I am a frontend-focused software developer with a background in Marketing and
-          Customer Experience, and I'm currently looking for my next role!
-          I am a React, Javascript, and CSS developer with strengths in design, creativity,
+          I am a frontend-focused software developer with a background in marketing and
+          customer experience, and I'm currently working as a full-stack software engineer
+          working on a production app with an established start-up.
+          I am a Javascript developer with strengths in design, creativity,
           cross-discipline collaboration, and communication.
         </p>
         <p>
           I love building fun and functional web apps, and making sure the web continues to be
           a place that is accessible for everyone. I am certified in several Adobe design programs,
-          and love to collaborate across disciplines and teams (UX designers, PMs, etc) to build
-          amazing sites that customers love to use.
+          and love to collaborate across disciplines and teams (with UX designers, PMs, and others) to build amazing sites that customers love to use.
         </p>
 
         <h3>What I'm Looking For</h3>
@@ -46,7 +46,7 @@
           knowledge! I am excited to learn from great companies and great mentors.
         </p>
         <p>
-          Next on my personal learning agenda is: GraphQL, Typescript, and Next.js
+          Next on my personal learning agenda is a deeper dive into Angular and Typescript.
         </p>
         <p>
           Oh, I'm also looking for a space to fail and make mistakes. A love of learning implicitly
