@@ -3,6 +3,30 @@
         <h1>// THE GOODS</h1>
         <div class="projects-container" id='projects-container'>
 
+          <!-- Project Zero -->
+          <article class="project-zero project-tile">
+            <h2>Poorly Drawn Pokemon</h2>
+            <h3>A full stack image hosting platform</h3>
+            <a href="http://www.poorlydrawnpokemon.com" target="_blank">
+              <img src="../assets/Projects/pokemon-app.png" alt="Color picker app">
+            </a>
+            <div class="buttons">
+              <a href="http://www.poorlydrawnpokemon.com" target="_blank"><button  class='button live-site'>LIVE SITE</button></a>
+              <a href="https://github.com/spencerhaugh/monsters" target="_blank"><button class='button github-code'>GITHUB</button></a>
+            </div>
+            <div class="description">
+                <strong>Description:</strong> This was built in NextJS, a server side rendering
+                framework that uses React under the hood. It allows admins to upload files, and 
+                also features search functionality, and a dark mode switcher. It is written in TypeScript. 
+                I used a Postgres SQL database to store user and image data, and Cloudinary to host image 
+                file uploads, as well as Strapi, a headless CMS for easy admin for my client. It
+                Is also fully mobile-ready. This project is deployed via Railway.
+              </div>
+            <div class="tech">
+                <strong>Technologies Used:</strong> NextJS, React, TypeScript, Postgres, Strapi, Material UI, Railway
+              </div>
+          </article>
+
           <!-- Project One -->
           <article class="project-one project-tile">
             <h2>Palette Maker!</h2>
@@ -17,14 +41,14 @@
             <div class="description">
                 <strong>Description:</strong> This was a really fun project! This React project
                 implements advanced React patterns and UI functionality (like drag and drop,
-                copy to clipboard, and transistions).
+                copy to clipboard, and transitions).
                 The app utilizes concepts like Higher Order Components, Context, and Reducers for
                 state management in React, Drag and Drop libraries, MaterialUI for
                 component styling, and more.
               </div>
             <div class="tech">
                 <strong>Technologies Used:</strong> React, Javascript, HTML,
-                CSS, JSS, CRA, Material UI, Drag and Drop, React Transistion Group, Responsive UI
+                CSS, JSS, CRA, Material UI, Drag and Drop, React Transition Group, Responsive UI
                 design
               </div>
           </article>
