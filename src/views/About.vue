@@ -24,12 +24,13 @@
         <p>
           I love building fun and functional web apps, and making sure the web continues to be
           a place that is accessible for everyone. I am certified in several Adobe design programs,
-          and love to collaborate across disciplines and teams (with UX designers, PMs, and others) to build amazing sites that customers love to use.
+          and love to collaborate across disciplines and teams (with UX designers, PMs, and others)
+          to build amazing sites that customers love to use.
         </p>
 
         <h3>What I'm Looking For</h3>
         <p>
-          I'm looking for a healthy, vibrant enviroment where I can do my best work! I'm looking
+          I'm looking for a healthy, vibrant environment where I can do my best work! I'm looking
           for a company that values diversity, creativity, and where I can make an impact with my
           development skills in a positive, supportive, and growth-oriented atmosphere.
         </p>
@@ -74,9 +75,9 @@
         <p>
           I also have a 1988 VW Vanagon that I am trying to restore, I don't know a
           lot about cars but I'm trying to learn. This process also reflects in my
-          devoper life; there are always new and interesting problems with a vintage van,
-          and knowing what my resources are, and analysing the issue to break it down
-          into managable pieces is the best way to get yourself through it
+          developer life; there are always new and interesting problems with a vintage van,
+          and knowing what my resources are, and analyzing the issue to break it down
+          into manageable pieces is the best way to get yourself through it
           and back on the road!
         </p>
         <p>
@@ -93,7 +94,7 @@
         <h3>Also:</h3>
         <p>I also <strong>*strongly*</strong> believe in equality and dismantling problematic
           systemic infrastructure such as racism, sexism, homophobia, transphobia, and the
-          toxic enviroments that enable them.
+          toxic environments that enable them.
           I think that this is necessary and important information to put
           here on the site, as any company I agree to work for will absolutely
           need to share those beliefs.
