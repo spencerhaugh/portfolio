@@ -1,6 +1,6 @@
 <template>
     <div class="resume-link">
-        <a class=“btn-download” href="https://drive.google.com/file/d/18WxggoagjHvVbg3_Oxos8uAROxihk7Cp/view?usp=sharing" target="_blank" rel="noreferrer noopener">
+        <a class=“btn-download” href="https://drive.google.com/file/d/1-AifT8L92THPadpXjZqazPAygQGKalEu/view?usp=sharing" target="_blank" rel="noreferrer noopener">
             <button class="button resume">Download Resume</button>
         </a>
     </div>
