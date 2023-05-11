@@ -16,14 +16,16 @@
             </div>
             <div class="description">
                 <strong>Description:</strong> This was built in NextJS, a server side rendering
-                framework that uses React under the hood. It allows admins to upload files, and 
-                also features search functionality, and a dark mode switcher. It is written in TypeScript. 
-                I used a Postgres SQL database to store user and image data, and Cloudinary to host image 
-                file uploads, as well as Strapi, a headless CMS for easy admin for my client. It
-                Is also fully mobile-ready. This project is deployed via Railway.
+                framework that uses React under the hood. It allows admins to upload files, and
+                also features search functionality, and a dark mode switcher. It is written in
+                TypeScript. I used a Postgres SQL database to store user and image data, and
+                Cloudinary to host image file uploads, as well as Strapi, a headless CMS for
+                easy admin for my client. It is also fully mobile-ready.
+                This project is deployed via Railway.
               </div>
             <div class="tech">
-                <strong>Technologies Used:</strong> NextJS, React, TypeScript, Postgres, Strapi, Material UI, Railway
+                <strong>Technologies Used:</strong> NextJS, React, TypeScript, Postgres, Strapi,
+                Material UI, Railway
               </div>
           </article>
 

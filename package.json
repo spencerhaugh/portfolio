@@ -42,10 +42,7 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {
-      "max_line_length": "120",
-      "trim_trailing_whitespace": "true"
-    }
+    "rules": {}
   },
   "browserslist": [
     "> 1%",
